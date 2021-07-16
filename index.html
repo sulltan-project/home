@@ -25,7 +25,153 @@
 
   <link rel="stylesheet" href="framework7/framework7-bundle.min.css">
   <link rel="stylesheet" href="css/icons.css">
-  <link rel="stylesheet" href="https://app.eonhubapp.com/css/app.css">
+<style>
+
+/* Custom color theme properties */
+:root {
+  --f7-theme-color: #007aff;
+  --f7-theme-color-rgb: 0, 122, 255;
+  --f7-theme-color-shade: #0066d6;
+  --f7-theme-color-tint: #298fff;
+}
+
+/* Your app custom styles here */
+.page-content {
+  background-color: #1c1c28;
+}
+.tabbar-labels {
+  background-color: rgb(40, 41, 61, 0.8);
+}
+
+.navbar-bg {
+  background-color: rgb(40, 41, 61, 0.8);
+}
+
+.block-strong {
+  background-color: rgb(40, 41, 61, 0.8);
+}
+
+.list {
+  background-color: #1c1c28;
+}
+
+li {
+  margin: 10px;
+  background-color: rgb(40, 41, 61, 0.8);
+  border-radius: 15px;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+}
+
+.top-card {
+  width: 100%;
+  height: 170px;
+  border-radius: 15px;
+}
+
+.div-slide {
+  flex-shrink: 0;
+  min-width: 320px;
+  display: block;
+  height: 200px;
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.div-slide-app {
+  flex-shrink: 0;
+  min-width: 100px;
+  display: block;
+  height: 160px;
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.top-card-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 23.3%;
+}
+
+.div-slide-app h2 {
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.div-slide-app p {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  opacity: 0.6;
+}
+
+.icon {
+  border-radius: 30px;
+}
+
+.get-btn {
+  width: 50px;
+  padding: 5px;
+  float: right;
+  border-radius: 30px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.col-50 {
+  width: 90%;
+  border-radius: 15px;
+  background-color: rgb(40, 41, 61, 0.8);
+  display: block;
+}
+
+.row {
+  width: 95%;
+}
+
+.repo-img {
+  width: 100%;
+  border-radius: 15px;
+  float: top;
+  float: left;
+  opacity: 0.6;
+}
+
+.repo-title {
+  text-align: justify;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.repo-btn {
+  width: 120px;
+  margin-top: 120px;
+  margin-bottom: 10px;
+  display: block;
+  color: #fff;
+  background-color: #1c1c28;
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  margin-left: 4%;
+}
+
+</style>
 </head>
 <body>
   <div id="app"class="theme-dark">
